@@ -1,3 +1,5 @@
+DESKTOP verzija
+
 high-fidelity:
 
 Verzija 1
@@ -24,3 +26,8 @@ https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=612%3A474&sc
 
 Verzija 5
 https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=826%3A0&scaling=min-zoom
+
+MOBILNA verzija:
+
+high-fidelity naslovna stranica
+https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=903%3A105&scaling=scale-down
