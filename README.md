@@ -27,7 +27,10 @@ https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=612%3A474&sc
 Verzija 5
 https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=826%3A0&scaling=min-zoom
 
-MOBILNA verzija:
+MOBILNA verzija, high-fidelity naslovnih stranica:
 
-high-fidelity naslovna stranica
+Verzija 1
+https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=972%3A1&scaling=scale-down
+
+Verzija 2
 https://www.figma.com/proto/hkA5UEBM9gQhRTar8aTJPT/Verzija1?node-id=903%3A105&scaling=scale-down
