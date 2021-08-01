@@ -1,10 +1,14 @@
+//import; dodavanje komponenti za prikaz na stranici
+
 import React from "react"
+
+import NavigationHeader from '../components/NavigationHeader'
+
+//NavigationHeader tag (moduralan) se mijenja sa kodom iz foldera u komponentama
 
 const IndexPage = () => (
   <main>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>This is were we will add content</p>
+    <NavigationHeader />
   </main>
 )
 
