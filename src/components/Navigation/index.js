@@ -5,7 +5,7 @@ import Izbornik from '../Izbornik'
 import * as styles from './style.module.css'
 
 const Navigation = () => (
-  <section>
+  <section className={styles.navigation}>
     <Jezik />
     <Izbornik />
   </section>

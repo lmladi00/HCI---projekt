@@ -1,0 +1,11 @@
+.jezik {
+    margin-left: 780px;
+    text-align: center;
+    display: block;
+    height: 36px;
+    width: 150px;
+    border: solid 1px black;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: lowercase;
+  }

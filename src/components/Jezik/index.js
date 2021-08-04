@@ -2,6 +2,7 @@ import React from 'react'
 
 import * as styles from './style.module.css' 
 
-const Jezik = () => <section></section>
+const Jezik = () => <span className={styles.jezik}>hrv</span>
 
 export default Jezik
+
