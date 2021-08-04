@@ -2,6 +2,7 @@
   height: 52px;
   display: flex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1em;
   }
 
   /*izbacili smo da su kucice put gore, align-items: center; */
