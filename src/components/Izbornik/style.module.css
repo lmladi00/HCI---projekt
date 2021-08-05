@@ -1,5 +1,4 @@
 .izbornik {
-    margin-right: 30px;
     text-align: center;
     display: block;
     height: 36px;
@@ -9,3 +8,5 @@
     line-height: 36px;
     text-transform: uppercase;
   }
+
+  /*margin-right: 30px smo makli*/

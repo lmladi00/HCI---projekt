@@ -1,6 +1,7 @@
 .navigation {
   height: 52px;
   display: flex;
+  align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 0.1em;
   }

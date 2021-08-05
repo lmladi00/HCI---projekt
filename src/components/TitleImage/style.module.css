@@ -2,8 +2,9 @@
     height: 650px;
     width: 100%;
     position: relative;
-    background-color: pink;
+    background-color: rgb(248, 203, 210);
     background-size: cover;
+    background-repeat: no-repeat;
 }
  
 .titleImage > div {
