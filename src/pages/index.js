@@ -23,10 +23,11 @@ export default IndexPage
 import React from "react"
  
 import HeaderFooterLayout from "../layouts/headerFooter"
+import TitlePage from '../modules/TitlePage'
  
 const IndexPage = () => (
   <HeaderFooterLayout activeTab="Home">
-    {/* Body components here! */}
+    <TitlePage />
     </HeaderFooterLayout>
     )
      
