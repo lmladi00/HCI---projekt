@@ -2,9 +2,12 @@
     height: 650px;
     width: 100%;
     position: relative;
-    background-color: rgb(248, 203, 210);
-    background-size: cover;
+    background: url('../../images/naslovna.png') ;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    max-height: 100vh;
+    min-height: 100vh;
+    object-fit: contain;
 }
  
 .titleImage > div {
@@ -18,7 +21,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    margin-top: -150px;
+    margin-top: -120px;
 }
  
 .titleImage h1 {
@@ -42,11 +45,12 @@
     width: fit-content;
     background: rgb(255, 151, 176);
     color: black;
-    padding: 11px 40px;
+    padding: 11px 60px;
     font-size: 16px;
     border: black;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
+    margin-left: -4px;
 }
 .titleImage button:hover {
     cursor: pointer;

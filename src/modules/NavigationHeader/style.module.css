@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin: 0 15px;
     align-items: center;
+    position: absolute;
+    z-index: 100;   
+    
   }
 
   /*da slika bude put gore

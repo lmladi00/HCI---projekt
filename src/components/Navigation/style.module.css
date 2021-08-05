@@ -4,6 +4,7 @@
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 0.1em;
+  margin-left: 380px;
   }
 
   /*izbacili smo da su kucice put gore, align-items: center; */
