@@ -1,0 +1,49 @@
+.paragraph{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.paragraph h1{
+ font-size: 25px;
+ opacity: 0.75;
+ font-family: 'Poppins', sans-serif;
+ line-height: 163%;
+ letter-spacing: 0.05em;
+ position: absolute;
+ top: 150px;
+ left: 280px;
+}
+
+.paragraph p{
+    color: rgba(29,29,27,0.8);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    border-left: pink 7px solid;
+    padding-left: 20px;
+}
+.paragraph span{
+    color:rgba(29,29,27,0.8);
+    border-bottom: 1px black solid;
+    position: absolute;
+    text-indent: 5px; 
+}
+.paragraph span:hover {
+    cursor: pointer;
+    opacity: 0.75;
+    border-bottom: 1px solid gray;
+}
+.paragraph span:active{
+    color: pink;
+    transition: ease 100ms;
+}
+    
+    

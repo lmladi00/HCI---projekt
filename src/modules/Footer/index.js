@@ -1,5 +1,6 @@
 import React from 'react'
   import styles from './style.module.css'
+  import { Link } from 'gatsby'
  
 const navTabs = ['Privacy', 'Cookies', '2021']
  const mail2 = ['lalicreates@gmail.com']
@@ -20,9 +21,12 @@ const navTabs = ['Privacy', 'Cookies', '2021']
               </ul>
 
             </ul>
-            
-            <li className = {styles.inst}>
-                diy_lali_creates</li>
+        
+            <Link to ={'https://www.instagram.com/diy_lali_creates/'}>
+            <span>lali_creates</span>
+            </Link>
+      
+                
        </ul>    
        
         <ul className={styles.navigation}>

@@ -1,6 +1,7 @@
 import React from 'react'
  
-import styles from './style.module.css'
+import * as styles from './style.module.css'
+
 
 const TitleImage = () => (
   <section className={styles.titleImage}>
@@ -11,6 +12,11 @@ const TitleImage = () => (
       <br/> 
       <button>Naruči okvir</button>
     </div>
+    
+    <button1>?</button1>
+    <button2>m</button2>
+    <button3>!</button3>
+
   </section>
 )
  

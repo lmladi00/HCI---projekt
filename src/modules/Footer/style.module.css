@@ -4,11 +4,11 @@
     background-color: rgb(253, 243, 245);
     padding: 100px;
     display: flex;
-    color: black;
     list-style: none;
     font-size: 14px;
     padding-right: 150px;
     padding-left: 150px;
+    position: relative;
 }
 
 
@@ -41,10 +41,16 @@ ul .mail{
 
 }
 .mail li:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
     cursor: pointer;
+    color: gray;
 }
-.inst{
+.mail li:active{
+    color: pink;
+    transition: ease 100ms;
+    }
+    
+.footer .leftside span{
    
     border-bottom: 1px black solid;
     font-family: 'Fira Sans', sans-serif;
@@ -52,6 +58,16 @@ ul .mail{
     position: absolute;
     margin-left: 40px;
     /*padding-left: 40px; treba rijesiti problem kad dode ikonica instagrama*/
+    color:black;
+}
+.footer .leftside span:hover{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    color:gray;
+}
+.footer .leftside span:active{
+    color: pink;
+    transition: ease 100ms;
 }
 
 .title {
@@ -80,10 +96,16 @@ ul .mail{
     list-style-type: none;
     font-family: 'Fira Sans', sans-serif;
     padding-top: 70px;
+    color:black;
 }
 
 .navigation li:hover {
-    border-bottom: 1px solid black;
     cursor: pointer;
+    color: gray;
 }
-
+.navigation li:active{
+    color: pink;
+    transition: ease 100ms;
+}
+    
+    

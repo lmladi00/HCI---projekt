@@ -1,0 +1,10 @@
+.threeElements{
+    height: 650px;
+    width: 650px;
+}
+.threeElemnts p {
+    font-size: 28px;
+    text-align: center;
+    color:black;
+    font-family: 'Sacramento', cursive;
+}
