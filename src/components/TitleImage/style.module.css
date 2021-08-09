@@ -66,7 +66,7 @@
 }
 
 .titleImage button1{
-    width: fit-content;
+    width: 24px;
     background: rgb(245, 213, 213);
     padding: 1px 16px;
     font-size: 40px;
@@ -79,7 +79,7 @@
 }
 .titleImage button1:hover {
     cursor: pointer;
-    background: rgb(255, 219, 226);
+    background: rgb(253, 233, 237);
     color: rgb(255, 153, 177);
 }
 
@@ -90,12 +90,10 @@
   
 }
 
-.titleImage button2{
-    width: fit-content;
-    background: white;
-    padding: 1px 6px;
-    font-size: 40px;
-    font-family: 'Fira Sans', sans-serif;
+.titleImage img {
+    height: 34px;
+    width: 40px;
+    padding: 6px 6px;
     color: rgb(243, 118, 148);
     display: flex;
     border: rgb(245, 213, 213) 2px solid;
@@ -104,18 +102,18 @@
     top: 230px;
     right: 0px;
 }
-.titleImage button2:hover {
+.titleImage img:hover {
     cursor: pointer;
     background: rgb(255, 219, 226);
     color: rgb(255, 153, 177);
 }
-.titleImage button3:active{
+.titleImage img:active{
     background: pink;
     transition: ease 100ms;
 }
 
 .titleImage button3{
-    width: fit-content;
+    width: 15px;
     background: rgb(245, 213, 213);
     padding: 1px 20.5px;
     font-size: 40px;
@@ -128,7 +126,7 @@
 }
 .titleImage button3:hover {
     cursor: pointer;
-    background: rgb(255, 219, 226);
+    background: rgb(253, 233, 237);
     color: rgb(255, 153, 177);
 }
 

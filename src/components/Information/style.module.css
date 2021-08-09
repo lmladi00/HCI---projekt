@@ -1,0 +1,9 @@
+.information{
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    /*border-top: 2px solid pink; nece mi tu a oce inspect?*/
+    font-family: 'Poppins', sans-serif;
+}
