@@ -9,6 +9,7 @@ import OnlyButton from '../../components/OnlyButton'
 const PageContent = () => 
     <section className={styles.pageContent}>
         <Paragraph />
+        <ImageParagraph />
         <OnlyButton />
         <Information />
     </section> 
