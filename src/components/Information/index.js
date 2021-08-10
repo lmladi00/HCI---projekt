@@ -1,17 +1,22 @@
 import React from 'react'
 import styles from './style.module.css'
 
-
-import logoimg from '../../images/logo1.png'
+import InfoElements from './InfoElements';
 
 const Information = () => 
 <section className={styles.information}>
-    <div class="info1">
-    <img src={logoimg} alt="description"/>
-    <h1>lala</h1>
-    <p></p>
-    </div>
-
+   
+        <div className={styles.info1}>
+            <InfoElements slika="Cube" source = {require('../../images/cube.png')} naslov={"Dimenzije okvira?"} tekst={"3D okviri su dimenzije 26x26x2cm, dok su 2D okviri, 21x30cm, svaki okvir je bijele boje."}/>
+            <InfoElements naslov={"Vrijeme izrade?"} tekst={"Za izradu okvira i dostavu zajedno treba 15-20 dana."}/>
+            <InfoElements naslov={"Načini plaćanja?"} tekst={"Plaćanje se vrši uplatom na račun, kojeg dobijete prilikom ispune obrasca na linku: Naruči okvir"}/>      
+        </div>
+    
 </section> 
  
-export default Information
+export default Information;
+
+/* <img src={cube} alt="description"/>*/
+/*    <li>Dimenzije okvira?</li>
+            <p>3D okviri su dimenzije 26x26x2cm, dok su 2D okviri, 21x30cm, svaki okvir je
+             bijele boje.</p>*/

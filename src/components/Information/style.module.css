@@ -1,9 +1,39 @@
 .information{
+    padding: 0; /* remove default padding and all margins! */
     margin: 0;
-    padding: 0;
     height: 450px;
-    width: 100%;
     position: relative;
     /*border-top: 2px solid pink; nece mi tu a oce inspect?*/
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    border: 2px solid pink;
+
+}
+.information .info1{
+    position: absolute;
+    padding: 40px;
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info1 img{
+    height: 80px;
+    opacity: 0.80;
+    padding-bottom: 25px;
+}
+.info1 li{
+    opacity: 0.75;
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+.info1 p{
+    opacity: 0.8;
+    font-size: 18px;
 }
