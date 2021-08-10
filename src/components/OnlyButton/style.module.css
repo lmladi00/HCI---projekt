@@ -1,0 +1,9 @@
+.onlyButton {
+    height: 115px;
+    display: flex;
+    margin: 0 15px;
+    align-items: center;  
+    position: relative;
+    width: 100%;
+    }
+  
