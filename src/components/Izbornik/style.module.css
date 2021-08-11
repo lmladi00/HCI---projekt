@@ -1,12 +1,74 @@
-.izbornik {
-    text-align: center;
-    display: block;
-    height: 36px;
-    width: 160px;
-    border: solid 1px black;
-    font-size: 11px;
-    line-height: 36px;
-    text-transform: uppercase;
-  }
+.izbornik span {
+  text-align: center;
+  display: block;
+  height: 36px;
+  padding: 0 30px;
+  font-size: 13px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
 
-  /*margin-right: 30px smo makli*/
+.izbornik article:hover{
+  cursor: pointer;
+}
+.izbornik span:hover {
+  cursor: pointer;
+  color: rgb(255, 153, 177);
+}
+
+.izbornik span:active{
+  background: pink;
+  transition: ease 100ms;
+}
+
+.izbornik {
+  /*border: solid 1px black;*/
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.izbornik article {
+width: 40px;
+height: 20px;
+display: flex;
+flex-flow: column;
+justify-content: space-around;
+align-items: flex-end;
+transform: translateX(20px);
+}
+
+.izbornik article div {
+height: 1px;
+transition: width 0.5s ease-in;
+width: 20px;
+background-color: black;
+border-radius: 25%;
+backface-visibility: hidden;
+}
+
+.izbornik article div:nth-of-type(1) {
+width: 20px;
+}
+
+.izbornik article div:nth-of-type(2) {
+width: 30px;
+}
+
+.izbornik article div:nth-of-type(3) {
+width: 25px;
+}
+
+.izbornik .hovering div {
+width: 35px !important;
+cursor: pointer;
+}
+/*radi ali mi to ne triba
+.izbornik  div:active{
+  background: pink;
+  transition: ease 100ms;
+}
+*/
+
+/*margin-right: 30px smo makli*/
