@@ -134,3 +134,7 @@
     background: pink;
     transition: ease 100ms;
 }
+
+.titleElements .elements{
+    display:fix;
+}

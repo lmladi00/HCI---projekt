@@ -12,9 +12,11 @@ const TitleImage = () => (
       <button>Naruči okvir</button>
     </div>
     
+    <section className={styles.elements}>
     <button1>?</button1>
     <button2><img src={messageimg} alt="description"/></button2>
     <button3>!</button3>
+    </section>
 
   </section>
 )
