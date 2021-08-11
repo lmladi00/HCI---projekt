@@ -1,7 +1,85 @@
 .jezik {
-    /*margin-left: 1170px;*/
     text-align: center;
-    display: block;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: lowercase;
+  }
+ .jezik span{
+  text-align: center;
+  display: block;
+  font-size: 13px;
+  line-height: 36px;
+  text-transform: lowercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+
+}
+.jezik span:hover{
+  cursor: pointer;
+  color: rgb(255, 153, 177);
+}
+.jezik span:active{
+  color: rgb(241, 78, 132);
+  transition: ease 100ms;
+}
+.article{
+  transform: translateX(-50%) translateY(-50%);
+}
+  .jezik article{
+    width: 40px;
+    height: 35px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    transform: translateX(-5px);
+  }
+.jezik article div:hover{
+  cursor: pointer;
+  background: pink;
+  color: rgb(255, 153, 177);
+}
+.jezik article div:active{
+  background:rgb(255, 153, 177);
+  transition: ease 100ms;
+}
+  .jezik article div{
+    height: 1px;
+    transition: width 0.5s ease-in;
+    width: 20px;
+    background-color: black;
+    border-radius: 25%;
+    backface-visibility: hidden;
+    margin-left: 50px;
+    }
+  .jezik article div:nth-of-type(1) {
+    width: 8px;
+    -webkit-transform:
+            translateY(10px)
+            translateX(-20px)
+            rotate(45deg); 
+    }
+  .jezik article div:nth-of-type(2) {
+    width: 8px;
+    -webkit-transform:
+            translateY(-8px)
+            translateX(-14px)
+            rotate(-45deg); 
+    }
+ 
+  /*
+  .jezik {
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  
     height: 36px;
     width: 150px;
     border: solid 1px black;
@@ -9,3 +87,4 @@
     line-height: 36px;
     text-transform: lowercase;
   }
+ */
