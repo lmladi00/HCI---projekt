@@ -5,7 +5,8 @@ import * as styles from './style.module.css'
 import logoimg from '../../images/logo1.png'
 import { Link } from 'gatsby'
 
-const Logo = () => (
+const Logo = () => 
+(
   <Link to = {'/'}>
   <section className={styles.logo}> 
     <img src={logoimg} alt="description"/>
