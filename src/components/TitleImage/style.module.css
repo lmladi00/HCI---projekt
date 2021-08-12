@@ -79,8 +79,9 @@
 }
 .titleImage button1:hover {
     cursor: pointer;
-    background: rgb(253, 233, 237);
-    color: rgb(255, 153, 177);
+    /*background: rgb(253, 233, 237);
+    color: rgb(255, 153, 177);*/
+    padding: 1px 50px;
 }
 
 .titleImage button1:active{
@@ -104,8 +105,10 @@
 }
 .titleImage img:hover {
     cursor: pointer;
-    background: rgb(255, 219, 226);
+    /*background: rgb(255, 219, 226);
     color: rgb(255, 153, 177);
+    */
+    padding: 6px 50px;
 }
 .titleImage img:active{
     background: pink;
@@ -126,8 +129,9 @@
 }
 .titleImage button3:hover {
     cursor: pointer;
-    background: rgb(253, 233, 237);
-    color: rgb(255, 153, 177);
+    /*background: rgb(253, 233, 237);
+    color: rgb(255, 153, 177);*/
+    padding: 1px 50px;
 }
 
 .titleImage button3:active{

@@ -40,4 +40,16 @@
     opacity: 0.9;
     font-size: 18px;
 }
+.bookmark li{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;
+    list-style: none;
+}
+.bookmark{
+    position:relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height:40px;
+}
 
