@@ -29,11 +29,11 @@ import InfoElements from './InfoElements';
  
 const Information = () =>
     <section className={styles.information}>
-        <div className={styles.bookmark}>
-            <InfoElements slika="cube.png">
-            <li> ! </li>
+       <div className={styles.bookmark}>
+            <InfoElements slika="info.png">
             </InfoElements>
         </div>
+
         <div className={styles.info1}>
             <InfoElements slika="cube.png" naslov={"Dimenzije okvira?"}>
                 <span>3D okviri su dimenzije 26x26x2cm,<br/>  dok su 2D okviri, 21x30cm, svaki okvir je <br/> bijele boje.</span>
@@ -45,7 +45,10 @@ const Information = () =>
                 <span>Plaćanje se vrši uplatomna račun,<br/> prilikom ispune obrasca<br/> na linku: Naruči okvir</span>
             </InfoElements>
         </div>
- 
+
     </section>
  
 export default Information;
+
+
+ 

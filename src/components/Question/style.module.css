@@ -1,0 +1,169 @@
+.contactForm{
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.contactForm article{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*
+img{
+    transform: translateX(40%) translateY(-40%);
+    z-index:-1;
+    position:absolute;
+ 
+}
+*/
+/*
+section:nth-child(3) > section.style-module--contactForm--3uUeO > div:nth-child(1) > div{
+    left:30px;
+}
+*/
+section.style-module--contactForm--3uUeO > div:nth-child(1) > div{
+    overflow:hidden;
+
+}
+/*
+.quest>div{
+    position:absolute;
+    justify-content:center;
+    margin-right:40px;
+    margin-bottom:40px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/*!!!!!!!!*/
+.contactForm > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: 50px;
+    left: 50px;
+    background-color: pink;
+    width: 50px;
+    height: 3px;
+    transform: translateX(-302%) translateY(3300%);
+    margin: 0 auto;
+}
+.contactForm > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: 50px;
+    left: 50px;
+    border:2px;
+    background-color:pink;
+    width: 100px;
+    height: 3px;
+    transform: translateX(126%) translateY(3250%);
+    margin: 0 auto;
+}
+/*
+.contactForm div:nth-of-type(1) {
+    height: 1px;
+    width: 20px;
+    color:black;
+}
+
+*/
+
+
+
+
+.contactForm .question{
+    width: 350px;
+    height:450px;
+    position: absolute;
+    display:flex;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid pink;
+    border-bottom: none;
+    border-top: none;
+
+}
+.contactForm .question span{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    position: absolute;
+    left:90px;
+}
+form{
+    position:absolute;
+    top:100px;
+
+}
+.question form>div{
+    height: 60px;
+}
+
+input[type=text]{
+    color: gray;
+    padding: 1px;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-bottom: 1px solid rgb(56, 55, 55);
+    position:absolute;
+    /*transform: translateX(80%) translateY(80%);*/
+    width: 220px;
+    left:60px;
+    
+}
+
+
+.question form input{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.message > input{
+    padding: 50px;
+    position: absolute;
+    left: 60px;
+}
+
+
+
+.contactForm button{
+    padding: 10px 18px;
+    position: absolute;
+    /* left: 90px; */
+    transform: translateX(285%) translateY(220%);
+    color:rgb(231, 91, 124);
+    font-weight: bold;
+    background: rgb(255, 178, 188);
+    border:1px solid rgb(236, 116, 136);
+}
+
+.contactForm button:hover {
+    color:rgb(231, 91, 124);
+    cursor: pointer;
+    border: 1px solid rgb(243, 150, 166);
+    transition: ease 250ms;
+    background:rgb(253, 206, 213);
+}
+.contactForm button:active{
+   background: rgb(252, 184, 204);
+}

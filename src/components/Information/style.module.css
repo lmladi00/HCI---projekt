@@ -2,11 +2,11 @@
     padding: 0; /* remove default padding and all margins! */
     margin: 0;
     height: 550px;
-    position: relative;
+    /*position: relative;*/
     border-top: 3px solid pink; 
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    border-bottom: 1px solid pink;
+    border-bottom: 2px solid pink;
 
 }
 .information .info1{
@@ -40,16 +40,32 @@
     opacity: 0.9;
     font-size: 18px;
 }
+
 .bookmark li{
     font-family: 'Fira Sans', sans-serif;
     font-size:30px;
     list-style: none;
-}
-.bookmark{
-    position:relative;
     display: flex;
+    position:relative;
+    bottom:5px;
+}
+
+.bookmark{
     justify-content: left;
     align-items: left;
-    height:40px;
 }
+
+.bookmark>div{
+    position:relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-right:40px;
+    margin-bottom:40px;
+    bottom:30px;
+    left: 50px;
+    width: 100%;
+}
+
 
