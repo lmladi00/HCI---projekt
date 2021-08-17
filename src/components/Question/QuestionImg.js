@@ -6,7 +6,7 @@ const QuestionImg = (props) => {
     //console.log(props);
     return (
         
-            <div style={{ width: '40px', opacity: 0.8, overflow: 'visible' }}>
+            <div style={{ width: '40px', overflow: 'visible' }}>
                 <ImageLoader imageName={props.slika} />
             </div>
     );

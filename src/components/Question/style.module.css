@@ -14,7 +14,12 @@
     align-items: center;
 
 }
-
+.questSection > div:nth-child(1) > div > div{
+    left:30px;
+}
+#gatsby-image-wrapper div{
+ left:30px;
+}
 /*
 img{
     transform: translateX(40%) translateY(-40%);
