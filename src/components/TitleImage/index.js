@@ -13,9 +13,11 @@ const TitleImage = () => (
     </div>
     
     <section className={styles.elements}>
-    <button1>?</button1>
+    <a href="#questSection"><button1 id="pitanja">?</button1></a>
+
     <button2><img src={messageimg} alt="description"/></button2>
-    <button3>!</button3>
+   
+    <a href="#infoSection"> <button3>!</button3></a>
     </section>
 
   </section>

@@ -1,0 +1,7 @@
+.dots {
+    height: 250px;
+    display: flex;
+    align-items: center;  
+    position: relative;
+    width: 100%;
+    }

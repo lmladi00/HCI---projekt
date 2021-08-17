@@ -28,7 +28,7 @@ import styles from './style.module.css'
 import InfoElements from './InfoElements';
  
 const Information = () =>
-    <section className={styles.information}>
+    <section id="infoSection" className={styles.information}>
        <div className={styles.bookmark}>
             <InfoElements slika="info.png">
             </InfoElements>
