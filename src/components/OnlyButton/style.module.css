@@ -29,6 +29,7 @@
         cursor: pointer;
         background-color: rgb(255, 211, 218);
         border:rgb(150, 150, 150) 2px solid;
+        padding: 5px 60px;
     }
     
     .onlyButton button:active{

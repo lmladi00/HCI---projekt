@@ -9,7 +9,7 @@ import OnlyButton from '../../components/OnlyButton'
 import ImageParagraph from '../../components/ImageParagraph'
 import ImageParagraph2 from '../../components/ImageParagraph2'
 import ImageParagraph3 from '../../components/ImageParagraph3'
-
+import IzbornikOpen from '../../components/IzbornikOpen'
 
 const PageContent = () => 
     <section className={styles.pageContent}>
@@ -20,6 +20,7 @@ const PageContent = () =>
         <OnlyButton />
         <Information />
         <Question />
+        <IzbornikOpen />
     </section> 
  
 export default PageContent

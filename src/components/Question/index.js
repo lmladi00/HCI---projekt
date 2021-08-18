@@ -13,11 +13,12 @@ const Question = () =>
             <span>Pišite nam...</span>
         <form>
             <div>
-                    <input name="name" type="text" value="Ime i prezime" />
+                    <input name="name" type="text" placeholder="Ime i prezime" />
+                      
             </div>
 
             <div>  
-                    <input name="email" type="text" value="Email adresa"/>
+                    <input name="email" type="text" placeholder="Email adresa"/>
             </div>
 
             <div className={styles.message}>

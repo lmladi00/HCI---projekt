@@ -12,8 +12,22 @@ const Izbornik = () => {
  /*
   
  */
+const openHandler = () => {
+  if(!open){
+    setOpen(true)
+  } else {
+    setOpen(false)
+  }
+}
+/*
+function handleCLick()
+{
+  setOpen(true);
+
+}
+*/
  return (<section className={styles.izbornik}>
-  <article className={hover ? styles.hovering : ''} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+  <article className={hover ? styles.hovering : ''} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false) } onClick={() => setOpen(!open)}>
     <div />
     <div />
     <div />
