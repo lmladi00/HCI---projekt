@@ -26,14 +26,14 @@ export default Information;
 import styles from './style.module.css'
  
 import InfoElements from './InfoElements';
- 
+//import InfoEl from './InfoEl';
+/*<div className={styles.info}>
+<InfoEl slika="info.png" /> 
+</div>
+*/
 const Information = () =>
     <section id="infoSection" className={styles.information}>
-       <div className={styles.bookmark}>
-            <InfoElements slika="info.png">
-            </InfoElements>
-        </div>
-
+        
         <div className={styles.info1}>
             <InfoElements slika="cube.png" naslov={"Dimenzije okvira?"}>
                 <span>3D okviri su dimenzije 26x26x2cm,<br/>  dok su 2D okviri, 21x30cm, svaki okvir je <br/> bijele boje.</span>

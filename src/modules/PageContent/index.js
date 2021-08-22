@@ -10,7 +10,7 @@ import ImageParagraph from '../../components/ImageParagraph'
 import ImageParagraph2 from '../../components/ImageParagraph2'
 import ImageParagraph3 from '../../components/ImageParagraph3'
 import IzbornikOpen from '../../components/IzbornikOpen'
-
+import InfoMark from '../../components/InfoMark'
 const PageContent = () => 
     <section className={styles.pageContent}>
         <Paragraph />
@@ -18,6 +18,7 @@ const PageContent = () =>
         <ImageParagraph2 />
         <ImageParagraph3 />
         <OnlyButton />
+        <InfoMark />
         <Information />
         <Question />
         <IzbornikOpen />

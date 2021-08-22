@@ -24,7 +24,7 @@ const [toggle, setToggle] = useState(true);
 <li onClick={() => setToggle(Okviri.blog)}>BLOG</li>
 <li onClick={() => setToggle(Okviri.kategorije)}>KATEGORIJE</li>
 */
-
+/*
 const IzbornikOpen = () =>{
   let kategorije ="bu"
   function Okviri (){
@@ -34,14 +34,16 @@ const IzbornikOpen = () =>{
     alert(kategorije)
     
   }
-
+*/
+const IzbornikOpen = () =>{
+const [img, setImage] = useState("okvir1.jpg");
 return(<section className={styles.izbornikopen}>
     <div className={styles.meni}>
     <ImgIzbornik img="okvir1.jpg" />
         <button>X</button>
         <div className={styles.blogkateg}>
             <li>BLOG</li>
-            <li onClick= {Okviri}>KATEGORIJE</li>
+            <li onClick ={() => setImage("cart.png")}>KATEGORIJE</li>
            
             <div className={styles.kateg}>   
                 <li>DIPLOMA</li>

@@ -13,10 +13,10 @@ const ImageParagraph2 = () => {
 }, []);
 return(
     <section data-aos="fade-up" className={styles.imageParagraph2}>
-      <p>KRŠTENJE</p>
+      <p>VALENTINOVO</p>
         <div className={styles.title}>
           <ImgParag2 img="slika1.jpg"  tekst>
-            <span>Uskoro će Vašem kumčetu<br/> krštenje, a Vi još ne znate<br/> što biste kupili, a ujedno<br/> želite da to bude nešto novo<br/> i unikatno? Onda ste na<br/> pravom mjestu! Svaki okvir<br/> je rađen s puno ljubavi i<br/> pažnje te prilagođen<br></br> željama kupaca,od boje,<br/> vrste slova do minimalizma.</span>
+            <span>Vaš partner/ica obožava <br/> personalizirane poklone? <br/> Nemate ideje što dečku/curi <br/> kupiti za Valentinovo?<br/> Na pravom ste mjestu!<br/> Karikature kreiram sama, <br/> a Vi sami prilagođavate okvir<br/> prema Vašim željama.</span>
           </ImgParag2>  
         </div>
     </section>
