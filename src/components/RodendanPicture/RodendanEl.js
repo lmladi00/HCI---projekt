@@ -5,7 +5,7 @@ import ImageLoader from '../ImageLoader'
 const InfoEl = (props) => {
     //console.log(props);
     return (
-            <div style={{width:'80%', textAlign:'center', objectFit:'cover', display: 'block', margin: 'auto auto'}}>
+            <div style={{textAlign:'center', objectFit:'cover', display: 'block', margin: 'auto auto'}}>
                 <ImageLoader imageName={props.slika} />
             </div>
     );

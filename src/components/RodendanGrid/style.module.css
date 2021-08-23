@@ -1,0 +1,55 @@
+.rodendanGrid{
+    height: 1300px;
+    width: 100%;
+    position: relative;
+}
+
+.rodendanGrid > div{
+    display:grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+    /*background-color: pink;*/
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+    margin: 0px 50px;
+}
+/*
+.rodendanGrid > div > div{
+    background-color: white;
+}
+*/
+.rodendanGrid > div > div li{
+    font-size: 19px;
+    list-style: none;
+    padding-top: 6px;
+}
+.rodendanGrid > div > div button{
+        height: 40px;
+        width: fit-content;
+        background: rgb(255, 151, 176);
+        color: black;
+        padding: 0px 25px;
+        font-size: 15px;
+        border: black;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 2px;
+        margin-left: -4px;
+        box-shadow: 0px 3px 5px gray;
+        transition: ease 250ms;
+}
+.rodendanGrid > div > div button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 211, 218);
+    border:rgb(150, 150, 150) 2px solid;
+    padding: 0px 25px;
+}
+.rodendanGrid > div > div button:active{
+    background: pink;
+    transition: ease 100ms;
+}
+li:not(:last-child) {
+    margin-bottom: 17px;
+}

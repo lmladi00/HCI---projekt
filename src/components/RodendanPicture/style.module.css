@@ -1,8 +1,18 @@
 .rodendanPicture{
-    height: 480px;
+    height: 600px;
     width: 100%;
     position: relative;
     text-align: center;
     align-items: center;
     justify-content: space-between;
+}
+.rodendanPicture> div > div{
+    position:absolute;
+    width: 80%;
+    height: 480px;
+    left:150px;
+}
+.rodendanPicture p{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
 }
