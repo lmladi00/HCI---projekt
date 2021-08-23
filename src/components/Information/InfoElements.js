@@ -22,7 +22,7 @@ const InfoElements = (props) => {
     //console.log(props);
     return (
         <div>
-            <div style={{ width: '60px', opacity: 0.8, overflow: 'visible', position: 'relative'}}>
+            <div style={{ width: '70px', opacity: 0.8, overflow: 'visible', position: 'relative'}}>
                 <ImageLoader imageName={props.slika} />
             </div>
             <li>{props.naslov}</li>

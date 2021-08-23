@@ -11,13 +11,16 @@ import ImageParagraph2 from '../../components/ImageParagraph2'
 import ImageParagraph3 from '../../components/ImageParagraph3'
 import IzbornikOpen from '../../components/IzbornikOpen'
 import InfoMark from '../../components/InfoMark'
+import Dots from '../../components/Dots'
 const PageContent = () => 
     <section className={styles.pageContent}>
         <Paragraph />
         <ImageParagraph />
         <ImageParagraph2 />
         <ImageParagraph3 />
+        <Dots/>
         <OnlyButton />
+     
         <InfoMark />
         <Information />
         <Question />

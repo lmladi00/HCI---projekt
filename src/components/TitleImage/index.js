@@ -17,7 +17,7 @@ const TitleImage = () => (
 
     <button2><img src={messageimg} alt="description"/></button2>
    
-    <a href="#infoSection"> <button3>!</button3></a>
+    <a href="#mark"> <button3>!</button3></a>
     </section>
 
   </section>

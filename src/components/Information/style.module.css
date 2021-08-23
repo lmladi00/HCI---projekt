@@ -24,10 +24,12 @@
     text-align: center;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: center;
+}
+
+#cube.png{
+    height:20px;
 }
 /*ZAAPMTIIIII*/
 .info1>div{
