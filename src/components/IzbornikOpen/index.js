@@ -48,7 +48,7 @@ return(<section className={styles.izbornikopen}>
             <div className={styles.kateg}>   
                 <li>DIPLOMA</li>
                 <li>KRŠTENJE</li>
-                <li>ROĐENDAN</li>
+                <a href="rodendan"><li>ROĐENDAN</li></a>
                 <li>VALENTINOVO</li>
                 <li>VJENČANJE</li>
             </div>

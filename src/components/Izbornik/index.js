@@ -27,7 +27,8 @@ function handleCLick()
 }
 */
  return (<section className={styles.izbornik}>
-  <article className={hover ? styles.hovering : ''} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false) } onClick={handleClick}>
+
+    <article className={hover ? styles.hovering : ''} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false) } onClick={handleClick}>
     <div />
     <div />
     <div />

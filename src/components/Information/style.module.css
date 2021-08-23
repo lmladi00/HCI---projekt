@@ -37,7 +37,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin-right:40px;
+    margin-right:60px;
 }
 #infoSection > div:nth-child(1) > div > div > picture > img{
     left:30px;
