@@ -1,7 +1,10 @@
-import React, { useState} from "react"
+import React, { useState, useEffect} from "react"
 import * as styles from './style.module.css'
 
 import ImgIzbornik from './ImgIzbornik';
+
+import "aos/dist/aos.css";
+import Aos from "aos"
 
 import kategorije from '../../images/cube.png'
 import blog from '../../images/slika1.jpg'
@@ -36,8 +39,12 @@ const IzbornikOpen = () =>{
   }
 */
 const IzbornikOpen = () =>{
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+}, []);
+
 const [img, setImage] = useState("okvir1.jpg");
-return(<section className={styles.izbornikopen}>
+return(<section data-aos="fade-left"className={styles.izbornikopen}>
     <div className={styles.meni}>
     <ImgIzbornik img="okvir1.jpg" />
         <button>X</button>
