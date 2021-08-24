@@ -70,6 +70,13 @@
     transition: ease 100ms;
 }
 
+
+section:nth-child(2) > section > section{
+    position:fixed;
+    right:0px;
+}
+
+
 .titleImage button1{
     width: 24px;
     background: rgb(245, 213, 213);
