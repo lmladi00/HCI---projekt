@@ -20,19 +20,25 @@ export default IndexPage
 
 /* NOVI PRISTUP JER SMO DODALI HEADERFOOTER*/
 
-import React from "react"
- 
+import React, { useState } from "react"
+
 import HeaderFooterLayout from "../layouts/headerFooter"
 import TitlePage from '../modules/TitlePage'
 
 import PageContent from "../modules/PageContent"
+import IzbornikOpen from "../components/IzbornikOpen"
 
-const IndexPage = () => (
-  <HeaderFooterLayout activeTab="Home">
-    <TitlePage />
-    <PageContent />
+
+const IndexPage = () => {
+  const [showMenu, setShowMenu] = useState(false)
+
+  return (
+    <HeaderFooterLayout setMenu={() => setShowMenu(!showMenu)} activeTab="Home">
+      <TitlePage />
+      <PageContent />
+      {showMenu && <IzbornikOpen />}
     </HeaderFooterLayout>
-    )
-     
-    export default IndexPage
-    
+  )
+}
+
+export default IndexPage

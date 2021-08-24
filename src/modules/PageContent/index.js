@@ -9,7 +9,6 @@ import OnlyButton from '../../components/OnlyButton'
 import ImageParagraph from '../../components/ImageParagraph'
 import ImageParagraph2 from '../../components/ImageParagraph2'
 import ImageParagraph3 from '../../components/ImageParagraph3'
-import IzbornikOpen from '../../components/IzbornikOpen'
 import InfoMark from '../../components/InfoMark'
 import Dots from '../../components/Dots'
 const PageContent = () => 
@@ -24,7 +23,7 @@ const PageContent = () =>
         <InfoMark />
         <Information />
         <Question />
-        <IzbornikOpen />
+      
     </section> 
  
 export default PageContent

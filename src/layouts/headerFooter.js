@@ -2,9 +2,9 @@ import React from 'react'
 import NavigationHeader from '../modules/NavigationHeader'
 import Footer from '../modules/Footer'
 
-const HeaderFooterLayout = ({children, activeTab}) => (
+const HeaderFooterLayout = ({children, setMenu}) => (
   <>
-    <NavigationHeader activeTab={activeTab} />
+    <NavigationHeader setMenu={setMenu} />
       {children}
     <Footer />
   </>

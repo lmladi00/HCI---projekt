@@ -14,7 +14,7 @@
     overflow: visible;
     position: relative;
     left: 40px;
-    z-index:100;
+    z-index:2;
 }
 .information .info1{
     position: absolute;

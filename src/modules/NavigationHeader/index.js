@@ -5,10 +5,10 @@ import Logo from '../../components/Logo'
 
 import * as styles from './style.module.css'
 
-const NavigationHeader = () => (
+const NavigationHeader = ({ setMenu }) => (
   <section className={styles.navigationHeader}>
     <Logo />
-    <Navigation />
+    <Navigation setMenu={setMenu} />
   </section>
 )
 export default NavigationHeader
