@@ -99,7 +99,13 @@ li:not(:last-child) {
     font-size: 20px;
     position: absolute;
     right: 0px;
-    margin-right:40px;
-    transform: translateX(-50%) translateY(-1500%);
+    margin-right: 113px;
+    transform: translateX(-50%) translateY(-1630%);
+}
+/*
+.meni button:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
 }
 
+*/
