@@ -45,7 +45,7 @@
     width: fit-content;
     background: rgb(255, 151, 176);
     color: black;
-    padding: 11px 60px;
+    padding: 0px 60px;
     font-size: 16px;
     border: black;
     font-family: 'Poppins', sans-serif;
@@ -53,11 +53,16 @@
     margin-left: -4px;
     box-shadow: 0px 3px 5px gray;
     transition: ease 250ms;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translateX(-50%) translateY(0%);
 }
 .titleImage button:hover {
     cursor: pointer;
     background-color: rgb(255, 211, 218);
     border:rgb(150, 150, 150) 2px solid;
+    padding: 0px 60px;
 }
 
 .titleImage button:active{

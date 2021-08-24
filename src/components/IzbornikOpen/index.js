@@ -42,7 +42,7 @@ return(<section className={styles.izbornikopen}>
     <ImgIzbornik img="okvir1.jpg" />
         <button>X</button>
         <div className={styles.blogkateg}>
-            <li>BLOG</li>
+        <a href="blog"><li>BLOG</li></a>
             <li onClick ={() => setImage("cart.png")}>KATEGORIJE</li>
            
             <div className={styles.kateg}>   
