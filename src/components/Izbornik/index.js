@@ -34,7 +34,7 @@ function handleCLick()
     <div />
   </article>
   
-  <span style={{ zIndex: 200 }}>Izbornik</span>
+  <span style={{ zIndex: 5 }}>Izbornik</span>
 </section>
 )
 }

@@ -8,7 +8,7 @@
     object-fit: contain;
     pointer-events: all;
     opacity: 1;
-    z-index: 3;
+    z-index: 4;
     transition-delay: 0s;
 }
 

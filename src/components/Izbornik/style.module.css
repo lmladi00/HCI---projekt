@@ -10,6 +10,10 @@
   letter-spacing: 0.05em;
 }
 
+.izbornik > article{
+  z-index:2;
+}
+
 .izbornik article:hover{
   cursor: pointer;
 }

@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;   
     position: absolute;
     width: 100%;
     }
-  
+.navigationHeader > a{
+  z-index:2;
+}
 
   /*da slika bude put gore
   position: absolute;
