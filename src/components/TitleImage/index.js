@@ -7,7 +7,7 @@ import messageimg from '../../images/message2.jpg'
 const TitleImage = () => (
   <section className={styles.titleImage}>
     <div>
-      <h1>Personalizirani okviri</h1>
+      <p>Personalizirani okviri</p>
       <br/> 
       <button>Naruči okvir</button>
     </div>
