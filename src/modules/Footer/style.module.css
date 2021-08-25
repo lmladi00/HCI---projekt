@@ -49,6 +49,16 @@ ul .mail{
     color: pink;
     transition: ease 100ms;
     }
+
+.footer img{
+    height:25px;
+    transform: translateX(160%);
+    opacity: 0.9;
+}
+.footer img:hover{
+    opacity:0.6;
+}
+    
     
 .footer .leftside span{
    
@@ -56,9 +66,11 @@ ul .mail{
     font-family: 'Fira Sans', sans-serif;
     list-style: none;
     position: absolute;
-    margin-left: 40px;
+    margin-left: 45px;
+    margin-top: 5px;
     /*padding-left: 40px; treba rijesiti problem kad dode ikonica instagrama*/
     color:black;
+    transform: translateX(50%), translateY(0%);
 }
 .footer .leftside span:hover{
     border-bottom: 1px solid gray;
@@ -107,5 +119,4 @@ ul .mail{
     color: pink;
     transition: ease 100ms;
 }
-    
-    
+

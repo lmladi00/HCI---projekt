@@ -2,6 +2,8 @@ import React from 'react'
   import styles from './style.module.css'
   import { Link } from 'gatsby'
  
+  import messageimg from '../../images/instagram.png'
+
 const navTabs = ['Privacy', 'Cookies', '2021']
  const mail2 = ['lalicreates@gmail.com']
   const Footer = () => (
@@ -23,6 +25,7 @@ const navTabs = ['Privacy', 'Cookies', '2021']
             </ul>
         
             <Link to ={'https://www.instagram.com/diy_lali_creates/'}>
+            <img src={messageimg} alt="description"/>
             <span>lali_creates</span>
             </Link>
       
