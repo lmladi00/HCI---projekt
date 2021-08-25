@@ -1,0 +1,84 @@
+
+.elements button1{
+    width: 24px;
+    background: rgb(245, 213, 213);
+    padding: 1px 16px;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(243, 118, 148);
+    display: flex;
+    position: absolute;
+    top: 180px;
+    right: 0px;
+}
+.elements button1:hover {
+    cursor: pointer;
+    /*background: rgb(253, 233, 237);
+    color: rgb(255, 153, 177);*/
+    padding: 1px 50px;
+}
+
+.elements button1:active{
+    background: pink;
+    transition: ease 100ms;
+    position: absolute;
+  
+}
+
+.elements img {
+    height: 34px;
+    width: 40px;
+    padding: 6px 6px;
+    color: rgb(243, 118, 148);
+    display: flex;
+    border: rgb(245, 213, 213) 2px solid;
+    margin: 0px;
+    position: absolute;
+    top: 230px;
+    right: 0px;
+}
+.elements img:hover {
+    cursor: pointer;
+    /*background: rgb(255, 219, 226);
+    color: rgb(255, 153, 177);
+    */
+    padding: 6px 50px;
+}
+.elements img:active{
+    background: pink;
+    transition: ease 100ms;
+}
+
+.elements button3{
+    width: 15px;
+    background: rgb(245, 213, 213);
+    padding: 1px 20.5px;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(243, 118, 148);
+    display: flex;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+}
+.elements button3:hover {
+    cursor: pointer;
+    /*background: rgb(253, 233, 237);
+    color: rgb(255, 153, 177);*/
+    padding: 1px 50px;
+}
+
+.elements button3:active{
+    background: pink;
+    transition: ease 100ms;
+}
+
+.elements{
+    display:fix;
+}
+
+section:nth-child(2) > section > section{
+    position:fixed;
+    right:0px;
+    z-index: 3;
+}
