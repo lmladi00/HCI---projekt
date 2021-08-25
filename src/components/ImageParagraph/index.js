@@ -13,8 +13,8 @@ const ImageParagraph = () => {
 }, []);
 return(
     <section data-aos="fade-up" className={styles.imageParagraph}>
-      <p>KRŠTENJE</p>
         <div className={styles.title}>
+          <p>KRŠTENJE</p>
           <ImgParag img="slika1.jpg"  tekst>
             <span>Uskoro će Vašem kumčetu<br/> krštenje, a Vi još ne znate<br/> što biste kupili, a ujedno<br/> želite da to bude nešto novo<br/> i unikatno? Onda ste na<br/> pravom mjestu! Svaki okvir<br/> je rađen s puno ljubavi i<br/> pažnje te prilagođen<br></br> željama kupaca,od boje,<br/> vrste slova do minimalizma.</span>
           </ImgParag>  

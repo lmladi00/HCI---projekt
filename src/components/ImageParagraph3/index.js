@@ -12,9 +12,9 @@ const ImageParagraph3 = () => {
     Aos.init({ duration: 3000 });
 }, []);
 return(
-    <section data-aos="fade-up" className={styles.imageParagraph3}>
-      <p>ROĐENDAN</p>
+    <section data-aos="fade-up" className={styles.imageParagraph3}> 
         <div className={styles.title}>
+          <p>ROĐENDAN</p>
           <ImgParag3 img="slika1.jpg"  tekst>
             <span>Nemate više ideje što <br/> pokloniti nekome za <br/> rođendan? Želite pokloniti <br/> neku uspomenu za cijeli <br/> život? Na pravome ste <br/> mjestu. Svaki okvir <br/>prilagođen je Vašim <br/> željama, samo izaberite Vaš <br/>omiljeni dizajn i razveselite <br/> svoje najmilije.</span>
           </ImgParag3>  
