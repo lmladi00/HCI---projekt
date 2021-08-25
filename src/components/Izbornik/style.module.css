@@ -2,7 +2,6 @@
   text-align: center;
   display: block;
   height: 36px;
-  padding: 0 30px;
   font-size: 12px;
   line-height: 36px;
   text-transform: uppercase;
@@ -29,9 +28,10 @@
 
 .izbornik {
   /*border: solid 1px black;*/
+  width: 130px;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -70,15 +70,3 @@ width: 25px;
 width: 35px !important;
 cursor: pointer;
 }
-
-
-
-
-/*radi ali...
-.izbornik  div:active{
-  background: pink;
-  transition: ease 100ms;
-}
-*/
-
-/*margin-right: 30px smo makli*/
