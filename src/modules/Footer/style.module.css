@@ -111,12 +111,22 @@ ul .mail{
     color:black;
 }
 
-.navigation li:hover {
+.navigation > li:nth-child(1):hover {
     cursor: pointer;
     color: gray;
 }
-.navigation li:active{
+.navigation > li:nth-child(1):active{
     color: pink;
     transition: ease 100ms;
 }
-
+.navigation > li:nth-child(2):hover {
+    cursor: pointer;
+    color: gray;
+}
+.navigation > li:nth-child(2):active{
+    color: pink;
+    transition: ease 100ms;
+}
+.navigation > li:nth-child(3):hover :disabled{
+    background: #ffff00;
+}
