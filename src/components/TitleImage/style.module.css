@@ -24,22 +24,16 @@
     margin-top: -120px;
 }
  
-.titleImage h1 {
-    font-size: 40px;
-    color: rgb(80, 78, 78);
+.titleImage p {
+    font-size: 42px;
+    color: black;
     display: flex;
     font-family: 'Sacramento', cursive;
-    margin: -5px;
+    margin: -0.5px;
     margin-left: -40px;
 }
- 
-.titleImage p {
-    font-size: 28px;
-    margin: 0;
-    font-family: 'Sacramento', cursive;
-    margin-left: -35px;
-}
-.titleImage button {
+
+button {
     margin: 5px;
     height: 44px;
     width: fit-content;
@@ -54,18 +48,18 @@
     box-shadow: 0px 3px 5px gray;
     transition: ease 250ms;
     position: absolute;
-    top: 70%;
+    top: 74%;
     left: 45%;
     transform: translateX(-50%) translateY(0%);
 }
-.titleImage button:hover {
+button:hover {
     cursor: pointer;
     background-color: rgb(255, 211, 218);
     border:rgb(150, 150, 150) 2px solid;
     padding: 0px 60px;
 }
 
-.titleImage button:active{
+button:active{
     background: pink;
     transition: ease 100ms;
 }
