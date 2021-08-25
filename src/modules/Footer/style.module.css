@@ -4,10 +4,11 @@
     background-color: rgb(253, 243, 245);
     padding: 100px;
     display: flex;
+    justify-content: space-between;
     list-style: none;
     font-size: 14px;
-    padding-right: 150px;
-    padding-left: 150px;
+    /*padding-right: 150px;
+    padding-left: 150px;*/
     position: relative;
 }
 
@@ -96,7 +97,6 @@ ul .mail{
     list-style: none;
     display: flex;
     text-transform: uppercase;
-    margin-left: 510px;
     font-family: 'Fira Sans', sans-serif;
     letter-spacing: 0.1em;
 }
