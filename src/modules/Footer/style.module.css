@@ -53,7 +53,7 @@ ul .mail{
 .footer img{
     height:25px;
     transform: translateX(160%);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .footer img:hover{
     opacity:0.6;
