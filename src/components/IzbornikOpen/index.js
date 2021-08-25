@@ -6,38 +6,6 @@ import ImgIzbornik from './ImgIzbornik';
 import "aos/dist/aos.css";
 import Aos from "aos"
 
-import kategorije from '../../images/cube.png'
-import blog from '../../images/slika1.jpg'
-/*
-const Okviri = {
-    blog: {
-      img: "",
-      text: "kitchenText"
-    },
-    kategorije: {
-      img: "bedroomImage",
-      text: "bedroomText"
-    }
-  }
-  */
-
-/*
-const [toggle, setToggle] = useState(true);
-//const [toggle, setToggle] = useState(kategorije);
-<li onClick={() => setToggle(Okviri.blog)}>BLOG</li>
-<li onClick={() => setToggle(Okviri.kategorije)}>KATEGORIJE</li>
-*/
-/*
-const IzbornikOpen = () =>{
-  let kategorije ="bu"
-  function Okviri (){
-
-    kategorije="c";
-  
-    alert(kategorije)
-    
-  }
-*/
 const IzbornikOpen = () =>{
   useEffect(() => {
     Aos.init({ duration: 3000 });

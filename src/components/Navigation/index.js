@@ -2,7 +2,6 @@ import React from 'react'
 
 import Jezik from '../Jezik'
 import Izbornik from '../Izbornik'
-import IzbornikOpen from '../IzbornikOpen'
 import * as styles from './style.module.css'
 
 const Navigation = ({ setMenu }) => {
