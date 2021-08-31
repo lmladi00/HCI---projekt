@@ -8,6 +8,7 @@ import RodendanGrid from '../../components/RodendanGrid'
 
 const RodendanForm = () => (
     <section  className={styles.rodendanForm}>
+   
        <RodendanParagraph />
        <RodendanPicture />
        <RodendanGrid />

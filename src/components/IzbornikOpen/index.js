@@ -24,7 +24,7 @@ const IzbornikOpen = () => {
             <ImgIzbornik img="okvir1.jpg" />
             <button>X</button>
             <div className={styles.blogkateg} >
-                <li><a href="blog">BLOG</a></li>
+                <li onClick={() => navigate('blog')}>BLOG</li>
                 <p style={{ margin: 0 }} onMouseEnter={e => onHovering(e, true)} onMouseLeave={e => onHovering(e, false)} >
 
                     <li onClick={() => setImage("cart.png")}>KATEGORIJE</li>

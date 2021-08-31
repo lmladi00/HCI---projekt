@@ -1,0 +1,62 @@
+.blogGrid{
+    height: 400vh;
+    /*height: 1300px;*/
+    width: 100%;
+    position: relative;
+   /* display:flex;*/
+    /*padding: 0 1.5rem;*/
+}
+.blogGrid > div{
+    display:grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 400px 200px 300px 500px;
+    grid-gap: 20px;
+    text-align:center;
+    justify-content: space-evenly;
+    background: pink;
+    margin: 0px 50px;
+    padding: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas: 
+    "header header header" 
+    "sidebar sidebar sidebar"
+    "footer footer footer";
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+}
+.blogGrid > div > div{
+    background-color: white;
+ 
+}
+.blogGrid img{
+    position:relative;
+    margin: auto auto;
+    overflow: visible;
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+}
+/*
+.blogGrid > div > grid-item-1{
+    place-self: center stretch;
+    grid-column-start:2;
+}
+*/
+
+.blogGrid > div > div:nth-of-type(1)
+{
+    grid-row: span 2;
+}
+
+.blogGrid > div > div:nth-of-type(5)
+{
+ 
+    grid-row: span 2;
+}
+
+.blogGrid > div > div:nth-of-type(8)
+{
+    grid-column: span 3;
+}

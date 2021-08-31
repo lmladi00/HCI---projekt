@@ -67,7 +67,7 @@
 
 .izbornikopen .meni .blogkateg li:hover {
    cursor: pointer;
-    color:black !important;
+   color:black !important;
 }
 
 .izbornikopen .meni .blogkateg li #kateg:active{
