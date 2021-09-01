@@ -33,7 +33,7 @@ const IndexPage = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <HeaderFooterLayout setMenu={() => setShowMenu(!showMenu)} activeTab="Home">
+    <HeaderFooterLayout setMenu={() => setShowMenu(!showMenu)}>
       <TitlePage />
       <PageContent />
       {showMenu && <IzbornikOpen />}

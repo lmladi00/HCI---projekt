@@ -6,6 +6,7 @@
     display: flex;
     flex-flow:column;
     justify-content: space-between;
+    object-fit:cover;
 }
 /*
 .blogForm p{
@@ -32,8 +33,10 @@
     margin-top: 20PX;
     padding: 0 60px;
 }
+img{
+    height: 20%;
+}
 
-/*
 .blogForm> div > div{
     width: 100%;
     height: auto;
@@ -41,4 +44,4 @@
     max-height: 100%;
     min-height: 100%;
 }
-*/
+

@@ -40,6 +40,11 @@
    right:30px;
 }
 */
+.kateg{
+    left:20px;
+    transform: translateX(10%) translateY(-2%);
+}
+/*
 .izbornikopen > div > div > p> div > li:nth-child(1){
     left:20px;
     transform: translateX(10%) translateY(-2%);
@@ -59,7 +64,7 @@
 .izbornikopen > div > div > p> div > li:nth-child(5){
     left:20px;
     transform: translateX(10%) translateY(-2%);
-}
+}*/
 
 .izbornikopen--1GaPR > div:nth-child(1) > div > div > picture > img{
     height:60px;
@@ -74,7 +79,9 @@
     color:pink;
     background: pink;
 }
-
+.blogkateg> p > li:active{
+    color:black !important;
+}
 /*
 .izbornikopen > div > div > li:nth-child(1){
     cursor: pointer;
@@ -89,7 +96,6 @@
 li:not(:last-child) {
     margin-bottom: 25px;
 }
-
 .meni button{
     display: flex;
     background:none;
