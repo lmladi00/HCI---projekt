@@ -1,5 +1,5 @@
 .blogGrid{
-    height: 400vh;
+    height: 220vh;
     /*height: 1300px;*/
     width: 100%;
     position: relative;
@@ -11,9 +11,9 @@
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: 400px 200px 300px 500px;
     grid-gap: 20px;
-    text-align:center;
+    text-align: left;
     justify-content: space-evenly;
-    background: pink;
+    /*background: pink;*/
     margin: 0px 50px;
     padding: 20px;
     justify-items: stretch;
@@ -24,12 +24,19 @@
     "footer footer footer";
     max-width:100%;
     max-height:100%;
-    object-fit: contain;
+
+    background-size:cover;
 }
 .blogGrid > div > div{
     background-color: white;
+    background-size:cover;
+    max-width:100%;
+    max-height:100%;
+    background-size: 100% 100%; 
+    object-fit: cover;
  
 }
+
 .blogGrid img{
     position:relative;
     margin: auto auto;
@@ -37,7 +44,9 @@
     max-width:100%;
     max-height:100%;
     object-fit: cover;
+    background-size: 100% 100%; 
 }
+
 /*
 .blogGrid > div > grid-item-1{
     place-self: center stretch;
@@ -48,15 +57,77 @@
 .blogGrid > div > div:nth-of-type(1)
 {
     grid-row: span 2;
+    background: url('../../images/okvir6.jpg') ;
+    background-size: 100% 100%;
+}
+.blogGrid > div > div:nth-of-type(2)
+{
+    background: url('../../images/okvir13 (1).jpg') ;
+    background-size: 100% 100%; 
+}
+.blogGrid > div > div:nth-of-type(3)
+{
+    background: url('../../images/okvir12 (1).jpg') ;
+    background-size: 100% 100%; 
+    background-color: pink;
+  
+}
+/*
+.blogGrid > div > div:nth-of-type(3):hover
+{
+    opacity: 0.6;
+}
+*/
+.blogGrid > div > div  p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.blogGrid > div > div  img:hover{
+    opacity: 0.6;
+}
+.blogGrid > div > div  span{
+    font-size: 18px;
+}
+.blogGrid > div > div  span:hover{
+    cursor:pointer;
+}
+.blogGrid > div > div  li{
+    list-style: none;
+    position: relative;
+    top: 250px;
+    left: 20px;
 }
 
+.blogGrid > div > div:nth-of-type(4)
+{
+    background: url('../../images/okvir14 (1).jpg') ;
+    background-size: 100% 100%; 
+}
 .blogGrid > div > div:nth-of-type(5)
 {
  
     grid-row: span 2;
+    background: url('../../images/okvir5.jpg') ;
+    background-size: 100% 100%;
+   
 }
-
+.blogGrid > div > div:nth-of-type(6)
+{  
+    background: url('../../images/okvir1 (1).jpg') ;
+    background-size: 100% 100%;
+   
+}
+.blogGrid > div > div:nth-of-type(7)
+{  
+    background: url('../../images/okvir2.png') ;
+    background-size: 100% 100%;
+    object-fit:fill;
+    background-repeat: no-repeat;
+   
+}
 .blogGrid > div > div:nth-of-type(8)
 {
     grid-column: span 3;
+    background: url('../../images/okvir8 (3).jpg') ;
+    background-size: 100% 100%; 
 }

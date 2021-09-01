@@ -1,42 +1,50 @@
-import React from 'react'
+import React, { useEffect }  from 'react'
  
 import * as styles from './style.module.css';
+
+import "aos/dist/aos.css";
+import Aos from "aos"
 
 import okvir4 from '../../images/okvir4.jpg'
 import okvir5 from '../../images/okvir5.jpg'
 import GridBlog from './GridBlog'
 
-const BlogGrid = () => (
+const BlogGrid = () => {
+    useEffect(() => {
+        Aos.init({ duration: 3000 });
+    }, []);
+    return(
     <section  className={styles.blogGrid}>
             <div className="grid-container">
-                <div className="grid item grid item-a">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-b">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-c">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-d">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-e">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-f">
-                <img src={okvir4} alt="description"/>
-                </div>
-                <div className="grid item grid item-g">
-                <img src={okvir4} alt="description"/>
-                </div> 
-                <div className="grid item grid item-h">
-                <img src={okvir4} alt="description"/>
-                </div> 
+                <div data-aos="fade-up" className="grid item grid item-a">
               
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-b">
+             
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-c">
+                    <li><p>Okvir i cvijeće</p>
+                    <span>Pročitaj više...</span>
+                    </li>
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-d">
               
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-e">
+              
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-f">
+            
+                </div>
+                <div data-aos="fade-up" className="grid item grid item-g">
+          
+                </div> 
+                <div data-aos="fade-up" className="grid item grid item-h">
+             
+                </div>                        
         </div>
-
     </section>
-)
+    );
+};
+
 export default BlogGrid  
