@@ -34,13 +34,15 @@ const BlogGrid = () => {
               
                 </div>
                 <div data-aos="fade-up" className="grid item grid item-f">
-            
+               
                 </div>
                 <div data-aos="fade-up" className="grid item grid item-g">
           
                 </div> 
                 <div data-aos="fade-up" className="grid item grid item-h">
-             
+                <ul><p>Važnost bijele pozadine</p>
+                    <span>Pročitaj više...</span>
+                    </ul>
                 </div>                        
         </div>
     </section>

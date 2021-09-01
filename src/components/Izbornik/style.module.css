@@ -15,6 +15,7 @@
 
 .izbornik article:hover{
   cursor: pointer;
+  color: rgb(255, 153, 177);
 }
 .izbornik span:hover {
   cursor: pointer;
@@ -22,7 +23,6 @@
 }
 
 .izbornik span:active{
-  background: pink;
   transition: ease 100ms;
 }
 

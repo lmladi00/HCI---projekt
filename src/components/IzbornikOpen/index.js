@@ -3,7 +3,7 @@ import * as styles from './style.module.css'
 import { navigate } from 'gatsby'
 
 import ImgIzbornik from './ImgIzbornik';
-
+import { Link } from 'gatsby';
 import "aos/dist/aos.css";
 import Aos from "aos"
 
@@ -22,12 +22,12 @@ const IzbornikOpen = () => {
     return (<section data-aos="fade-left" className={styles.izbornikopen}>
         <div className={styles.meni}>
             <ImgIzbornik img="okvir1.jpg" />
-            <button>X</button>
-            <div className={styles.blogkateg} >
+            <a href="/"> <button>X</button></a>
+                <div className={styles.blogkateg} >
                 <li onClick={() => navigate('blog')}>BLOG</li>
                 <p style={{ margin: 0 }} onMouseEnter={e => onHovering(e, true)} onMouseLeave={e => onHovering(e, false)} >
 
-                    <li onClick={() => setImage("cart.png")}>KATEGORIJE</li>
+                    <li >KATEGORIJE</li>
 
                     {hover && <div className={styles.kateg} >
                         <li>DIPLOMA</li>
@@ -44,3 +44,5 @@ const IzbornikOpen = () => {
     )
 }
 export default IzbornikOpen;
+
+/*onClick={() => setImage("cart.png")}*/

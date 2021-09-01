@@ -67,7 +67,7 @@
 }
 .blogGrid > div > div:nth-of-type(3)
 {
-    background: url('../../images/okvir12 (1).jpg') ;
+    background: linear-gradient(to right,#ff8ce6b9, #ffade8cc), url('../../images/okvir12 (1).jpg') ;
     background-size: 100% 100%; 
     background-color: pink;
   
@@ -78,25 +78,6 @@
     opacity: 0.6;
 }
 */
-.blogGrid > div > div  p{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-.blogGrid > div > div  img:hover{
-    opacity: 0.6;
-}
-.blogGrid > div > div  span{
-    font-size: 18px;
-}
-.blogGrid > div > div  span:hover{
-    cursor:pointer;
-}
-.blogGrid > div > div  li{
-    list-style: none;
-    position: relative;
-    top: 250px;
-    left: 20px;
-}
 
 .blogGrid > div > div:nth-of-type(4)
 {
@@ -128,6 +109,34 @@
 .blogGrid > div > div:nth-of-type(8)
 {
     grid-column: span 3;
-    background: url('../../images/okvir8 (3).jpg') ;
+    background: linear-gradient(to right,#ff8cbcb9, #ffade8cc), url('../../images/okvir8 (3).jpg') ;
     background-size: 100% 100%; 
+}
+
+
+
+
+.blogGrid > div > div  p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.blogGrid > div > div  img:hover{
+    opacity: 0.6;
+}
+.blogGrid > div > div  span{
+    font-size: 18px;
+}
+.blogGrid > div > div  span:hover{
+    cursor:pointer;
+}
+.blogGrid > div > div  li{
+    list-style: none;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+.blogGrid > div > div  ul{
+    list-style: none;
+    position: relative;
+    top: 330px;
 }
