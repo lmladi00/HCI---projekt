@@ -9,7 +9,7 @@ const TitleImage = () => (
     <div>
       <p>Personalizirani okviri</p>
       <br/> 
-      <button>Naruči okvir</button>
+      <a href='../mail'><button>Naruči okvir</button></a>
     </div>
     <Elements />
   </section>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
  
 import styles from './style.module.css'
  
@@ -8,7 +8,7 @@ const Elements = () => (
      
     <a href="#questSection"><button1 id="pitanja">?</button1></a>
 
-    <button2><img src={messageimg} alt="description"/></button2>
+    <a href='mail'><button2><img src={messageimg} alt="description"/></button2></a>
    
     <a href="#mark"> <button3>!</button3></a>
   

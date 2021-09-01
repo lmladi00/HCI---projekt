@@ -10,7 +10,7 @@ const GridRod = (props) => {
                 <ImageLoader imageName={props.slika} />
             </div>
             <li>{props.cijena}</li>
-            <button>{props.naruci}</button>
+            <a href='mail'><button>{props.naruci}</button></a>
         </div>
     );
 }

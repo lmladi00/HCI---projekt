@@ -39,7 +39,7 @@ const Information = () =>
                 <span>3D okviri su dimenzije 26x26x2cm,<br/>  dok su 2D okviri, 21x30cm, svaki okvir je <br/> bijele boje.</span>
             </InfoElements>
             <InfoElements slika ="clock.png" naslov={"Vrijeme izrade?"}>
-                <span>Za izradu okvira i dostavu zajedno<br/> treba 15-20 dana, <br/>dok blagdanima 30tak dana"</span>
+                <span>Za izradu okvira i dostavu zajedno<br/> treba 15-20 dana, <br/>dok blagdanima 30tak dana</span>
             </InfoElements>
             <InfoElements slika ="cart.png" naslov={"Načini plaćanja?"}>
                 <span>Plaćanje se vrši uplatomna račun,<br/> prilikom ispune obrasca<br/> na linku: Naruči okvir</span>

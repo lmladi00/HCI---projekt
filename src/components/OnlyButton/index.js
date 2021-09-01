@@ -4,7 +4,7 @@ import * as styles from './style.module.css'
 
 const OnlyButton = () => (
     <section className={styles.onlyButton}>
-      <button>Naruči okvir</button>
+       <a href='mail'><button>Naruči okvir</button></a>
     </section>
   )
   export default OnlyButton

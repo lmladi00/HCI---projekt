@@ -24,7 +24,7 @@ const IzbornikOpen = () => {
             <ImgIzbornik img="okvir1.jpg" />
             <a href="/"> <button>X</button></a>
                 <div className={styles.blogkateg} >
-                <li onClick={() => navigate('blog')}>BLOG</li>
+                <li onClick={() => navigate('blog')} style={{ transition: "ease 300"}}>BLOG</li>
                 <p style={{ margin: 0 }} onMouseEnter={e => onHovering(e, true)} onMouseLeave={e => onHovering(e, false)} >
 
                     <li >KATEGORIJE</li>
@@ -32,7 +32,7 @@ const IzbornikOpen = () => {
                     {hover && <div className={styles.kateg} >
                         <li>DIPLOMA</li>
                         <li>KRŠTENJE</li>
-                        <li onClick={() => navigate('rodendan')}>ROĐENDAN</li>
+                        <li style={{transition: "ease 100ms"}}onClick={() => navigate('rodendan')}>ROĐENDAN</li>
                         <li>VALENTINOVO</li>
                         <li>VJENČANJE</li>
                     </div>}
