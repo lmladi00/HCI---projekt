@@ -4,6 +4,7 @@
     height: 650px;
     width: 100%;
     position: relative;
+    background-image: linear-gradient(white, rgb(253, 243, 245));
 }
 .contactForm article{
     width: 40px;
