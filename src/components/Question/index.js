@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './style.module.css'
 import QuestionImg from './QuestionImg';
+/*import { values } from 'lodash';*/
 
-const Question = () =>
+const Question = () => (
     <section id="questSection"className={styles.contactForm}> 
         <div className={styles.quest}>
                 <QuestionImg slika="quest.png" /> 
@@ -18,7 +19,7 @@ const Question = () =>
             </div>
 
             <div>  
-                    <input name="email" type="text" placeholder="Email adresa"/>
+                    <input name="email" type="text"placeholder="Email adresa"/>
             </div>
 
             <div className={styles.message}>
@@ -29,5 +30,5 @@ const Question = () =>
         </form>
         </div>
      </section>
-
+)
 export default Question;

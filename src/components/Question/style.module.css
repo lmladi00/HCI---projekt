@@ -50,9 +50,12 @@ section.style-module--contactForm--3uUeO > div:nth-child(1) > div{
     margin-bottom:40px;
 }
 */
-
-
-
+.quest input:active{
+    border-color: pink;
+}
+.question--22YIK > form > div:nth-child(2) > input[type=text]:hover{
+    border-color: pink;
+}
 
 
 
@@ -140,7 +143,6 @@ input[type=text]{
     left:60px;
     
 }
-
 
 .question form input{
     font-size: 10px;
