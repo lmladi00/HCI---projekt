@@ -9,7 +9,6 @@
     pointer-events: all;
     opacity: 1;
     z-index: 4;
-    transition: .7s ease-in-out;
 }
 
 .meni{
@@ -33,6 +32,7 @@
     /*transform: translateX(-50%) translateY(-200%);*/
     color:gray;
     background-color:none;
+ 
 }
 
 /*
@@ -102,16 +102,23 @@ li:not(:last-child) {
     border: none;
     color: black;
     opacity: 0.8;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     position: absolute;
     right: 9px;
     margin-right: 90px;
-    top: 47px;
-}
-
+    top: 45px;
+    transition:all 0.7s ease-out;
+    transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}    
+/*
+transform: rotate(180deg);
+transition: transform .7s ease;
+*/
 .meni button:hover{
     cursor: pointer;
-    color:rgb(68, 66, 66);
-    transform: rotate('90deg');
-   
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    /*transform: rotate(180deg);
+    transition: transform .7s ease-out;*/
 }
