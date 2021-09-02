@@ -2,14 +2,13 @@
     height: 650px;
     width: 100%;
     position: relative;
-    background: url('../../images/naslovna.png') ;
+    background: url('../../images/naslovna.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     max-height: 100vh;
     min-height: 100vh;
     object-fit: contain;
 }
- 
 .titleImage > div {
     width: fit-content;
     height: fit-content;
