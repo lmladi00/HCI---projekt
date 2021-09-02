@@ -9,7 +9,7 @@
     pointer-events: all;
     opacity: 1;
     z-index: 4;
-    transition-delay: 0s;
+    transition: .7s ease-in-out;
 }
 
 .meni{
@@ -98,19 +98,20 @@ li:not(:last-child) {
 }
 .meni button{
     display: flex;
-    background:none;
+    background: none;
     border: none;
     color: black;
     opacity: 0.8;
-    font-size: 20px;
+    font-size: 1.2vw;
     position: absolute;
-    right: 0px;
+    right: 9px;
     margin-right: 90px;
-    transform: translateX(-50%) translateY(-1630%);
+    top: 47px;
 }
 
 .meni button:hover{
     cursor: pointer;
     color:rgb(68, 66, 66);
+    transform: rotate('90deg');
    
 }

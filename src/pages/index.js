@@ -36,7 +36,7 @@ const IndexPage = () => {
     <HeaderFooterLayout setMenu={() => setShowMenu(!showMenu)}>
       <TitlePage />
       <PageContent />
-      {showMenu && <IzbornikOpen />}
+      {showMenu && <IzbornikOpen click={() => setShowMenu(false)} />}
     </HeaderFooterLayout>
   )
 }
