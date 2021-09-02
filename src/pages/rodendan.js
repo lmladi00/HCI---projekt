@@ -5,8 +5,9 @@ import Elements from "../components/Elements"
 import Question from "../components/Question"
 import InfoMark from "../components/InfoMark"
 import Information from "../components/Information"
- 
+
 import IzbornikOpen from "../components/IzbornikOpen"
+
 const RodendanPage = () => {
     const [showMenu, setShowMenu] = useState(false)
     return (
