@@ -3,5 +3,9 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
+}
 
+.mailGrid{
+    width: 350px;
+    height:450px;
 }
