@@ -8,9 +8,9 @@ const MailGrid = () => (
            
                     <input name="name" type="text" placeholder="Ime i prezime" />
                       
-                    <label htmlFor="email"></label>
+                    <label htmlFor="email">
                     <input name="email" type="text"placeholder="Email adresa"/>
-
+                    </label>
                     <button>Send a message</button>
             
         </form>

@@ -34,7 +34,7 @@ const IzbornikOpen = ({ click }) => {
                 <li onClick={() => navigate('blog')} style={{ transition: "ease 300" }}>BLOG</li>
                 <p style={{ margin: 0 }} onMouseEnter={e => onHovering(e, true)} onMouseLeave={e => onHovering(e, false)} >
  
-                    <li >KATEGORIJE</li>
+                    <li id="kat">KATEGORIJE</li>
  
                     {hover && <div className={styles.kateg} >
                         <li>DIPLOMA</li>

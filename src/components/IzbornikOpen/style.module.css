@@ -127,3 +127,8 @@ transition: transform .7s ease;
     /*transform: rotate(180deg);
     transition: transform .7s ease-out;*/
 }
+
+.izbornikopen .meni .blogkateg #kat:hover{
+    color:black !important;
+    cursor:pointer;
+}
