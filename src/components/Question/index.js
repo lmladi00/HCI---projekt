@@ -23,7 +23,7 @@ const Question = () => (
             </div>
 
             <div className={styles.message}>
-                    <input name="message" type="mess" />
+                    <textarea name="message" type="mess" />
             </div>
 
             <button>SEND</button>

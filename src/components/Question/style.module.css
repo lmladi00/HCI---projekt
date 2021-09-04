@@ -151,11 +151,13 @@ input[type=text]{
 
 
 
-.message > input{
+.message > textarea{
     position: absolute;
     height: 120px;
     left: 60px;
     width: 215px;
+    resize: none;
+    outline-color: rgb(241, 149, 165);
 }
 
 
@@ -180,4 +182,7 @@ input[type=text]{
 }
 .contactForm button:active{
    background: rgb(252, 184, 204);
+}
+.contactForm input {
+    outline-color: rgb(241, 149, 165);
 }
