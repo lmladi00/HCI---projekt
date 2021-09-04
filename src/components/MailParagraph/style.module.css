@@ -1,0 +1,50 @@
+.mailParagraph{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+}
+.mailParagraph span{
+    position: relative;
+    right: 140px;
+    font-size: 2.5vw;
+    font-family: 'Sacramento', cursive;
+   
+}
+.mailParagraph p{
+    font-size: 1.5vw;
+    opacity: 0.7;
+    border-left-color: pink;
+    text-align: justify;
+    border-left: pink 7px solid;
+    padding-left: 20px;
+}
+.mailParagraph a{
+    color:black;
+    position: absolute;
+    text-indent: 5px; 
+}
+.mailParagraph a:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.mailParagraph a:active{
+    color: pink;
+    transition: ease 100ms;
+}
+    
+.mailParagraph div{
+    text-align: justify;
+    margin: 0 300px;
+    position: relative;
+    top: 50px;
+}
+.mailParagraph div:after{
+    width: 100%;
+      display: inline-block;
+      overflow: hidden;
+      height: 0;
+   
+}
+

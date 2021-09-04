@@ -30,6 +30,7 @@
     border-left: pink 7px solid;
     padding-left: 20px;
 }
+/*
 .paragraph span{
     color:rgba(29,29,27,0.8);
     border-bottom: 1px black solid;
@@ -45,5 +46,19 @@
     color: pink;
     transition: ease 100ms;
 }
-    
+*/
+.paragraph a{
+    color:black;
+    position: absolute;
+    text-indent: 5px; 
+}
+.paragraph a:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.paragraph a:active{
+    color: pink;
+    transition: ease 100ms;
+}
+     
     
