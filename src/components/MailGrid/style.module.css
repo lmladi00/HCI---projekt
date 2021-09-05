@@ -1,11 +1,51 @@
 .mailGrid{
-    height: 600px;
     display: flex;
-    justify-content: center;
     flex-flow: column;
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.mailGrid .grid form{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 300px;
+}
+.mailGrid span{
+    font-size: 1.7vw;
+    right: 140px;
+    margin: 0 160px;
+    opacity: 0.85;
 }
 
-.mailGrid{
-    width: 350px;
-    height:450px;
+.mailGrid .grid{
+    display: flex;
+    justify-content: space-between;
+
+
 }
+.mailGrid .grid form input{
+    display:flex;
+    justify-content: space-between;
+}
+.mailGrid > div > form > div:nth-child(1) > input[type=text]{
+    left: 20px;
+}
+.mailGrid > div > form > div:nth-child(2) > input[type=text]{
+    left:500px;
+}
+.mailGrid > div > form > div:nth-child(3) > input[type=text]{
+   left:20;
+   top:60px;
+}
+.mailGrid > div > form > div:nth-child(4) > input[type=text]{
+    left:500px;
+}
+.mailGrid > div > form > div:nth-child(5) > input[type=text]{
+    left:500px;
+}
+.mailGrid > div > form > div:nth-child(6) > input[type=text]{
+    left:500px;
+}
+

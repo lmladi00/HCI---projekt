@@ -132,3 +132,8 @@ transition: transform .7s ease;
     color:black !important;
     cursor:pointer;
 }
+
+.noScroll {
+   /* transition: all 0.7s ease-out;*/
+    overflow-y: hidden;
+}
