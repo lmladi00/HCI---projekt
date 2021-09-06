@@ -4,7 +4,6 @@ import { navigate } from 'gatsby'
 import { document } from 'browser-monads';
  
 import ImgIzbornik from './ImgIzbornik';
-import { Link } from 'gatsby';
 import "aos/dist/aos.css";
 import Aos from "aos"
  
@@ -31,7 +30,6 @@ const IzbornikOpen = ({ click }) => {
         setHover(v)
     }
  
-    const [img, setImage] = useState("okvir1.jpg");
     return (<section data-aos="fade-left" className={hiding ? `${styles.izbornikopen} ${styles.hiding}` : styles.izbornikopen}>
         <div className={styles.meni}>
             <ImgIzbornik img="okvir1.jpg" />
