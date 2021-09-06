@@ -166,7 +166,7 @@ input[type=text]{
     padding: 10px 18px;
     position: absolute;
     /* left: 90px; */
-    transform: translateX(285%) translateY(220%);
+    transform: translateX(275%) translateY(220%);
     color:rgb(231, 91, 124);
     font-weight: bold;
     background: rgb(255, 178, 188);

@@ -1,45 +1,35 @@
 .rodendanForm{
-    height: 450px;
-    width: 100%;
-    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
 }
 .rodendanForm h1{
-    font-size: 25px;
+    position: relative;
+    font-size: 1.6vw;
     opacity: 0.75;
-    font-family: 'Poppins', sans-serif;
-    line-height: 163%;
-    letter-spacing: 0.05em;
-    position: absolute;
-    top: 150px;
-    left: 150px;
-   }
+}
+.rodendanForm p{
+    font-size: 1.5vw;
+    opacity: 0.7;
+    border-left-color: pink;
+    text-align: justify;
+    border-left: pink 7px solid;
+    padding-left: 20px;
+}
+
+.rodendanForm div{
+    text-align: justify;
+    margin: 0 400px 0 150px;
+    position: relative;
+    top: 50px;
+}
+.rodendanForm div:after{
+    width: 100%;
+      display: inline-block;
+      overflow: hidden;
+      height: 0;
    
-   .rodendanForm p{
-       color: rgba(29,29,27,0.8);
-       font-weight: 400;
-       font-family: 'Poppins', sans-serif;
-       line-height: 1.7;
-       text-align: left;
-       font-size: 19px;
-       position: absolute;
-       top: 250px;
-       left: 150px;
-       border-left: pink 7px solid;
-       padding-left: 20px;
-   }
-   .rodendanForm span{
-       color:rgba(29,29,27,0.8);
-       border-bottom: 1px black solid;
-       position: absolute;
-       text-indent: 5px; 
-   }
-   .rodendanForm span:hover {
-       cursor: pointer;
-       opacity: 0.75;
-       border-bottom: 1px solid gray;
-   }
-   .rodendanForm span:active{
-       color: pink;
-       transition: ease 100ms;
-   }
-       
+}
+

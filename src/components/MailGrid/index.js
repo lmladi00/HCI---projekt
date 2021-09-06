@@ -28,13 +28,13 @@ const MailGrid = () => {
                     <input name="phonenumber" type="text"placeholder="Broj mobitela" />
                 </div>
                 <div>
-                    <input name="email" type="text"placeholder="Email adresa "/>
+                    <input name="email" type="text"placeholder="Email adresa *"/>
                 </div>
                 <div>
-                    <input name="category" type="text"placeholder="Kategorija*"/>
+                    <input name="category" type="text"placeholder="Kategorija"/>
                 </div>
                 <div>
-                    <input name="pay" type="text"placeholder="Način plaćanja *"/>
+                    <input name="pay" type="text"placeholder="Način plaćanja"/>
                 </div>
                 <div>
                     <textarea name="text" type="text"/>

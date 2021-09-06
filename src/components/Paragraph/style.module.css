@@ -1,52 +1,26 @@
 .paragraph{
-    margin: 0;
-    padding: 0;
     height: 800px;
-    width: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
 }
-
 .paragraph h1{
- font-size: 1.7vw;
- opacity: 0.75;
- font-family: 'Poppins', sans-serif;
- line-height: 163%;
- letter-spacing: 0.05em;
- position: relative;
- top: 150px;
- left: 280px;
+    position: relative;
+    right: 80px;
+    font-size: 1.9vw;
+    opacity: 0.75;
+    bottom:20px;
+    letter-spacing: 0.05em;
 }
-
 .paragraph p{
-    color: rgba(29,29,27,0.8);
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.8;
-    text-align: left;
-    font-size: 21px;
-    position: absolute;
-    top: 250px;
-    left: 420px;
+    font-size: 1.5vw;
+    opacity: 0.7;
+    border-left-color: pink;
+    text-align: justify;
     border-left: pink 7px solid;
     padding-left: 20px;
+    line-height: 1.8;
 }
-/*
-.paragraph span{
-    color:rgba(29,29,27,0.8);
-    border-bottom: 1px black solid;
-    position: absolute;
-    text-indent: 5px; 
-}
-.paragraph span:hover {
-    cursor: pointer;
-    opacity: 0.75;
-    border-bottom: 1px solid gray;
-}
-.paragraph span:active{
-    color: pink;
-    transition: ease 100ms;
-}
-*/
 .paragraph a{
     color:black;
     position: absolute;
@@ -60,5 +34,18 @@
     color: pink;
     transition: ease 100ms;
 }
-     
     
+.paragraph div{
+    text-align: justify;
+    margin: 0 380px;
+    position: relative;
+    top: 50px;
+}
+.paragraph div:after{
+    width: 100%;
+      display: inline-block;
+      overflow: hidden;
+      height: 0;
+   
+}
+
