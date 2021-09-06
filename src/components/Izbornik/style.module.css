@@ -7,6 +7,7 @@
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.05em;
+  transform: translateX(80px);
 }
 
 .izbornik > article{
@@ -43,6 +44,7 @@ flex-flow: column;
 justify-content: space-around;
 align-items: flex-end;
 transform: translateX(20px);
+position: fixed;
 }
 
 .izbornik article div {
