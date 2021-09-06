@@ -3,7 +3,7 @@
     flex-flow: column;
     margin: 0;
     padding: 0;
-    height: 650px;
+    height: 900px;
     width: 100%;
     position: relative;
 }
@@ -23,29 +23,109 @@
     display: flex;
     justify-content: space-between;
 
-
 }
+.mailGrid .grid form{
+    left:55px;
+}
+
 .mailGrid .grid form input{
     display:flex;
     justify-content: space-between;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.8;
 }
 .mailGrid > div > form > div:nth-child(1) > input[type=text]{
     left: 20px;
+    width:220px;
 }
 .mailGrid > div > form > div:nth-child(2) > input[type=text]{
-    left:500px;
+    left:300px;
 }
 .mailGrid > div > form > div:nth-child(3) > input[type=text]{
-   left:20;
-   top:60px;
+    left:20px;
+    top:60px;
 }
 .mailGrid > div > form > div:nth-child(4) > input[type=text]{
-    left:500px;
+    left:300px;
+    top:60px;
 }
 .mailGrid > div > form > div:nth-child(5) > input[type=text]{
-    left:500px;
+    left:580px;
+    top:60px;
 }
 .mailGrid > div > form > div:nth-child(6) > input[type=text]{
-    left:500px;
+    top:120px;
+    left:20px;
+}
+.mailGrid > div > form > div:nth-child(7) > input[type=text]{
+    top:120px;
+    left:300px;
+    width:500px;
+}
+.mailGrid > div > form > div:nth-child(8) > input[type=text]{
+    top:230px;
+    left:20px;
+}
+.mailGrid > div > form > div:nth-child(9) > input[type=text]{
+    top:230px;
+    left:300px;
+}
+.mailGrid textarea{
+    top:360px;
+    position: relative;
+    left:20px;
+    height: 180px;
+    width: 800px;
+}
+.mailGrid button{
+    top: 700px;
+    right: 320px;
+    position: relative;
 }
 
+.mailGrid .grid .check{
+    position:relative;
+    display:flex;
+    top: 670px;
+    left: 375px;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.9;
+
+}
+
+.check p{
+    display:flex;
+}
+
+.mailGrid button{
+    padding: 10px 18px;
+    position: absolute;
+    /* left: 90px; */
+    transform: translateX(-25%) translateY(150%);
+    color:rgb(231, 91, 124);
+    font-weight: bold;
+    background: rgb(255, 178, 188);
+    border:1px solid rgb(236, 116, 136);
+}
+
+.mailGrid button:hover {
+    color:rgb(231, 91, 124);
+    cursor: pointer;
+    border: 1px solid rgb(243, 150, 166);
+    transition: ease 250ms;
+    background:rgb(253, 206, 213);
+}
+.mailGrid button:active{
+   background: rgb(252, 184, 204);
+}
+
+.mailGrid input {
+    outline-color: rgb(241, 149, 165);
+}
+.mailGrid textarea{
+   
+        outline-color: rgb(241, 149, 165);
+    
+}
