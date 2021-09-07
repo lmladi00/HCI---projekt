@@ -1,5 +1,12 @@
+DOCUMENTS
+
+https://github.com/lmladi00/HCI-projekt/blob/master/HCI-Lali_creates.docx
+
+https://github.com/lmladi00/HCI-projekt/blob/master/HCI-Lali_creates.pdf
+
 
 NETLIFY
+
 https://lalicreates.netlify.app/
 
 
