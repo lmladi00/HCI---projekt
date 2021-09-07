@@ -1,3 +1,8 @@
+
+NETLIFY
+https://lalicreates.netlify.app/
+
+
 DESKTOP verzija
 
 high-fidelity:
