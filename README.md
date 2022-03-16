@@ -1,4 +1,4 @@
-Here is the process of my first project in Human-Interaction-Design
+Here is the process of my first project in Human-Interaction-Design; my hobby is creating personal frames
 
 DOCUMENTS
 
