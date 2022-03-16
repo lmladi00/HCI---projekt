@@ -1,4 +1,5 @@
-Here is the process of my first project in Human-Interaction-Design; my hobby is creating personal frames
+Here is the process of my first project in Human Computer Interaction
+Since my hobby is creating personal frames, I've got an idea to create web page for providing frames:)
 
 DOCUMENTS
 
