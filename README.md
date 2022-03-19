@@ -1,4 +1,4 @@
-Here is the process of my first project in Human Computer Interaction
+Here is the process of my first project in Human Computer Interaction (Front-end)
 Since my hobby is creating personal frames, I've got an idea to create web page for providing frames:)
 
 DOCUMENTS
